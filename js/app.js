@@ -140,6 +140,13 @@ console.log(payRaise);
     // 2. No
     // 3. A list of things
 
+// B. Easy Does it
+
+const quotes = ["Hi", "Hey", "Yoo!"];
+
+
+
+
 
 
 
