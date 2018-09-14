@@ -102,7 +102,7 @@ for(let i = 1; i <= 100; i++){
 
 //C. Give me Five
 
-//Q1 & 2)
+//Q1 & Q2)
 
 for(let i = 1; i <= 100; i++){
     if(i % 5 === 0){
@@ -143,6 +143,22 @@ console.log(payRaise);
 // B. Easy Does it
 
 const quotes = ["Hi", "Hey", "Yoo!"];
+
+// C. Accessing elements
+
+const randomThings = [1, 10, "Hello", true];
+
+//Q1)
+
+randomThings[0];
+console.log(randomThings[0]);
+
+//Q2 & Q3)
+randomThings[2] = "World";
+console.log(randomThings[2]);
+
+
+
 
 
 
