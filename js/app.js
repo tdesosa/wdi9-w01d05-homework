@@ -29,7 +29,7 @@ console.log(firstVariable);
 let yourName = "Tomas";
 console.log("Hello my name is " + yourName);
 
-//Q3)
+//C. Booleans
 
 const a = 4;
 const b = 53;
@@ -47,6 +47,16 @@ console.log(e === 'Kevin');
 console.log(a < b < c);
 console.log(a <= a < d);
 console.log(48 == '48');
+
+//D. The farm
+
+const animal = "dog";
+    if(animal === "cow"){
+        console.log("mooooo");
+    } else {
+        console.log("Hey! You're not a cow.")
+    }
+
 
 
 
