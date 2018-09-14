@@ -131,6 +131,7 @@ for(let i = 1; i <= 100; i ++){
 console.log(payRaise);
 
 
+//E. Multiples of 3 and 5 (Already Answerd in previous homework/labs)
 
 
 
