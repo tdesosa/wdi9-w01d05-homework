@@ -12,7 +12,28 @@
     //    in words rather than code with the idea being that doing so will
     //    (does) make the process of executing the request in code easier.
     // 6. 70% thinking 30% typing
-    
+
+// B. Strings
+
+//Q1)
+
+let firstVariable;
+firstVariable = "Hello World";
+firstVariable = 15;
+let secondVariable = firstVariable;
+secondVariable = "World, Hello!"
+console.log(firstVariable);
+
+//Q2)
+
+let yourName = "Tomas";
+console.log("Hello my name is " + yourName);
+
+
+
+
+
+
 
 
 
