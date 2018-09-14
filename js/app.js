@@ -157,6 +157,30 @@ console.log(randomThings[0]);
 randomThings[2] = "World";
 console.log(randomThings[2]);
 
+//D. Change values
+
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+
+//Q1)
+
+ourClass[2];
+console.log(ourClass[2]);
+
+//Q2)
+
+ourClass[4] = "Octocat";
+console.log(ourClass[4]);
+
+//Q3)
+
+ourClass.push("Cloud City");
+console.log(ourClass);
+
+
+
+
+
+
 
 
 
