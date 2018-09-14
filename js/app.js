@@ -176,6 +176,43 @@ console.log(ourClass[4]);
 ourClass.push("Cloud City");
 console.log(ourClass);
 
+//E. Mix It Up
+
+const myArray = [5, 10, 500, 20]
+
+//Q1
+
+myArray.push("Egon");
+myArray.push("Come On Man! I want to go home! jk jk but really...")
+console.log(myArray);
+
+//Q2
+
+myArray.shift();
+console.log(myArray);
+
+//Q3
+
+myArray.unshift("Bob Marley");
+console.log(myArray);
+
+//Q4
+
+myArray.pop();
+console.log(myArray);
+
+//Q5
+
+myArray.reverse();
+console.log(myArray);
+
+
+
+
+
+
+
+
 
 
 
