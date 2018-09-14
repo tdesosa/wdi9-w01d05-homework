@@ -57,6 +57,21 @@ const animal = "dog";
         console.log("Hey! You're not a cow.")
     }
 
+//E. Driver's Ed
+
+const canIDrive = (age) => {
+    if(age >= 16) {
+        console.log("Here are the keys.")
+    } else {
+        console.log("Sorry, you're to young.")
+    }
+};
+
+canIDrive(18);
+
+
+
+
 
 
 
