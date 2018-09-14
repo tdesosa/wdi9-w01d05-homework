@@ -112,6 +112,26 @@ for(let i = 1; i <= 100; i++){
     }
 };
 
+//D. Savings account
+
+//Q1)
+
+let bankAccount = 0;
+for(let i = 1; i <= 10; i ++){
+    bankAccount += i
+};
+console.log(bankAccount);
+
+//Q2)
+
+let payRaise = 0;
+for(let i = 1; i <= 100; i ++){
+    payRaise += i * 2;
+};
+console.log(payRaise);
+
+
+
 
 
 
