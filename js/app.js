@@ -69,11 +69,28 @@ const canIDrive = (age) => {
 
 canIDrive(18);
 
+//Section 2. Loops
+
+//A. The basics
+
+//Q1)
+
+for(let i = 0; i <= 10; i++){
+    console.log(i);
+};
 
 
+//Q2)
 
+for(let i = 10; i <= 400; i++){
+    console.log(i);
+};
 
+//Q3)
 
+for(let i = 12; i <= 4000; i+= 3){
+    console.log(i);
+};
 
 
 
