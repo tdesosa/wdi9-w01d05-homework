@@ -133,6 +133,12 @@ console.log(payRaise);
 
 //E. Multiples of 3 and 5 (Already Answerd in previous homework/labs)
 
+// Section 2. Arrays & Control flow
+
+// A. Talk about it:
+    // 1. elements (the position of an element is its index)
+    // 2. No
+    // 3. A list of things
 
 
 
