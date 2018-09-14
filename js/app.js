@@ -218,9 +218,19 @@ const bigLittleNum = (num) => {
 
 bigLittleNum(15);
 
+// G. Monkey in the Middle
 
+const findMonkey = (num) => {
+    if(num < 5){
+        console.log("little number");
+    } else if(num > 10){
+        console.log("big number");
+    } else {
+        console.log("monkey");
+    }
+};
 
-
+findMonkey(5);
 
 
 
