@@ -206,6 +206,19 @@ console.log(myArray);
 myArray.reverse();
 console.log(myArray);
 
+//F. Biggie Smalls
+
+const bigLittleNum = (num) => {
+    if(num <= 99){
+        console.log("little number");
+    } else if(num >= 100){
+        console.log("big number");
+    }
+};
+
+bigLittleNum(15);
+
+
 
 
 
