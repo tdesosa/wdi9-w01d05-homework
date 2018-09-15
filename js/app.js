@@ -330,6 +330,21 @@ const isVowel = (character) => {
 
 console.log(isVowel("Z"));
 
+// E. getTwoLengths
+
+const getTwoLengths = (str1,str2) => {
+    let str1Count = 0;
+    let str2Count = 0;
+    for(let i=0;i <str1.length; i++){
+        str1Count += 1;
+    }
+    for(let i=0;i <str2.length; i++){
+        str2Count += 1;
+    }
+    return [str1Count,str2Count];
+ }
+console.log(getTwoLengths('hank', 'hippapotamus'));
+
 
 
 
