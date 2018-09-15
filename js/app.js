@@ -368,6 +368,18 @@ const maxOfThree = (num1, num2, num3) => {
 }
 console.log(maxOfThree(6, 9, 1));
 
+//H. printLongestWord
+
+const printLongestWord = (arrayOfStrings) => {
+    let longestWord = " ";
+    for(let i = 0; i < arrayOfStrings.length; i++){
+        if(arrayOfStrings[i].length > longestWord.length){
+            longestWord = arrayOfStrings[i];
+        }
+    }
+    return longestWord;
+}
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
 
 
