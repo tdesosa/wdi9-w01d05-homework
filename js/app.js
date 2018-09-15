@@ -345,10 +345,16 @@ const getTwoLengths = (str1,str2) => {
  }
 console.log(getTwoLengths('hank', 'hippapotamus'));
 
+// F. getMultipleLengths
 
-
-
-
+const getMultipleLengths = (arrayOfStrings) => {
+    const newArr = [];
+    for(let i = 0; i < arrayOfStrings.length; i++){
+        newArr.push(arrayOfStrings[i].length);
+    }
+    return newArr;
+}
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
 
 
