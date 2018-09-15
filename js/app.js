@@ -310,6 +310,12 @@ const printCool = (name) => {
 };
 printCool("Captain Reynolds");
 
+// C. calculateCube
+
+const calculateCube = (num) => {
+    console.log(Math.pow(num, 3));
+}
+calculateCube(5);
 
 
 
