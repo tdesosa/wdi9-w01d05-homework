@@ -303,8 +303,12 @@ console.log(thomsCloset[1][2]);
 
 // A. printGreeting (Already done per homework instructions)
 
+// B. printCool
 
-
+const printCool = (name) => {
+    console.log(`${name} is cool`);
+};
+printCool("Captain Reynolds");
 
 
 
