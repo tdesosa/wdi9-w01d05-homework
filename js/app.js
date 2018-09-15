@@ -299,6 +299,11 @@ console.log(`Thom is wearing a ${thomsCloset[0][0]}, ${thomsCloset[1][0]}, and $
 thomsCloset[1][2] = "Footie Pajamas";
 console.log(thomsCloset[1][2]);
 
+// Section 4. Functions
+
+// A. printGreeting (Already done per homework instructions)
+
+
 
 
 
