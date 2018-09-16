@@ -468,6 +468,17 @@ const randoNum = () => {
  };
 console.log(user);
 
+// B. Update the user
+
+// Q1)
+
+user.email = "td2@gmail.com";
+console.log(user);
+
+// Q2)
+
+user["age"]= user["age"]+1;
+console.log(user);
 
 
 
