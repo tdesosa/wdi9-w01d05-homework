@@ -388,6 +388,30 @@ const transmogrify = (num1, num2, num3) => {
 };
 console.log(transmogrify(5, 3, 2));
 
+// J. reverseWordOrder v2
+
+const reverseWordOrder = (stringForwards) => {
+    let newArr = [];
+    let temp = " ";
+    for(let i = 0; i < stringForwards.length; i++) {
+        if(stringForwards[i] === " "){
+            newArr.push(temp);
+            temp = " ";
+        } else {
+            temp += stringForwards[i]; 
+        }
+    }
+    if(temp.length >= 0) {
+        newArr.push(temp);
+    }
+    let stringBackwards = "";
+    for(let x = newArr.length - 1; x >= 0; x--){
+        stringBackwards += " "+newArr[x];
+    }
+    return stringBackwards;
+}
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("I use Lâncome on my comb"));
 
 
 
