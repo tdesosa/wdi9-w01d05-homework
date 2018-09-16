@@ -505,8 +505,44 @@ console.log(user);
 // Q4)
 console.log(user.purchased[2]);
 
+// E. Object-within-object
 
+// Q1)
 
+user.friend = {
+    name: "Andres",
+    age: 28,
+    location: "Miami",
+    purchased: []
+ };
+ console.log(user);
+
+ // Q2)
+
+ console.log(user.friend.name);
+
+ // Q3)
+
+ console.log(user.friend.location);
+
+ // Q4)
+
+ user.friend.age = 55;
+ console.log(user.friend);
+
+// Q5)
+
+user.friend.purchased.push("The One Ring");
+console.log(user.friend);
+
+// Q6)
+
+user.friend.purchased.push("A latte");
+console.log(user.friend);
+
+// Q7)
+
+console.log(user.friend.purchased[1]);
 
 
 
