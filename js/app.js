@@ -480,6 +480,11 @@ console.log(user);
 user["age"]= user["age"]+1;
 console.log(user);
 
+// Q3)
+
+user.location = "Miami";
+console.log(user);
+
 
 
 
