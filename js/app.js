@@ -480,10 +480,39 @@ console.log(user);
 user["age"]= user["age"]+1;
 console.log(user);
 
-// Q3)
+// C. Adding Keys and values
 
 user.location = "Miami";
 console.log(user);
+
+// D. Shopaholic!
+
+// Q1)
+
+user.purchased.push("carbohydrates");
+console.log(user);
+
+// Q2)
+
+user.purchased.push("peace of mind");
+console.log(user);
+
+// Q3)
+
+user.purchased.push("Merino jodhpurs");
+console.log(user);
+
+// Q4)
+console.log(user.purchased[2]);
+
+
+
+
+
+
+
+
+
 
 
 
