@@ -413,9 +413,48 @@ const reverseWordOrder = (stringForwards) => {
 console.log(reverseWordOrder("Ishmael me Call"));
 console.log(reverseWordOrder("I use Lâncome on my comb"));
 
+// K. Get down and dirty with Math.random()
 
+// Q1)
 
+const randoInt = () => {
+   return Math.floor(Math.random() * 9) + 1;
+};
 
+console.log(randoInt());
+
+// Q2) 
+
+const randoInt2 = () => {
+    return Math.floor(Math.random() * 99) + 10;
+ };
+ 
+ console.log(randoInt2());
+
+// Q3) 
+
+const randoNum = () => {
+    return Math.random() * 13266 + 532;
+ };
+ 
+ console.log(randoNum());
+
+ // Q4)
+
+ const randoNum2 = () => {
+    return Math.random() * 9 + 1;
+ };
+ 
+ console.log(randoNum2());
+
+ // Q5)
+
+ const quotes2 = ["Hi", "Hey", "Yoo!", "What's up", "Wassssup"];
+
+ const getRandomElement = () => {
+     return quotes2[Math.floor(Math.random() * quotes2.length)];
+ }
+ console.log(getRandomElement(quotes2));
 
 
 
