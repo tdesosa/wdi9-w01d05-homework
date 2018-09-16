@@ -544,6 +544,22 @@ console.log(user.friend);
 
 console.log(user.friend.purchased[1]);
 
+// F. Loops
+
+// Q1)
+
+for(i = 0; i < user.purchased.length; i++) {
+    console.log(user.purchased[i]);
+};
+
+
+// Q2)
+
+for(i = 0; i < user.friend.purchased.length; i++) {
+    console.log(user.friend.purchased[i]);
+};
+
+
 
 
 
