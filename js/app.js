@@ -456,6 +456,18 @@ const randoNum = () => {
  }
  console.log(getRandomElement(quotes2));
 
+ // Objects
+
+ // A. Make a user object
+
+ const user = {
+    name: "Tomas",
+    email: "td@gmail.com",
+    age: 28,
+    purchased: []
+ };
+console.log(user);
+
 
 
 
